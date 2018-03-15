@@ -12,6 +12,7 @@ module Mariage
       generate.assets false
       generate.helper false
       generate.test_framework  :test_unit, fixture: false
+      config.assets.initialize_on_precompile = false
     end
 
     # Initialize configuration defaults for originally generated Rails version.
